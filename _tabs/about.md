@@ -5,8 +5,7 @@ order: 4
 ---
 
 
-```
-Name: Mike Nabhan
+```Name: Mike Nabhan
 Occupation:
   Title: Senior Devops Engineer
   Company: MariaDB Corporation
