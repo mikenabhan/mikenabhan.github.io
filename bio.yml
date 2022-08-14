@@ -1,15 +1,4 @@
----
-title: About
-icon: fas fa-info-circle
-order: 4
----
-
-
-```
 Name: Mike Nabhan
-Occupation:
-  Title: Senior Devops Engineer
-  Company: MariaDB Corporation
 Location: Denver, Colorado, USA
 previous_locations:
   - Glasgow
