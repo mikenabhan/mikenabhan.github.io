@@ -23,7 +23,7 @@ timezone: 'America/Denver'
 
 title: Mike Nabhan                          # the main title
 
-tagline: Mike Nabhan's Site  # it will display as the sub-title
+tagline: Technical and Professional Writing  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   This is a personal website with technical content.
