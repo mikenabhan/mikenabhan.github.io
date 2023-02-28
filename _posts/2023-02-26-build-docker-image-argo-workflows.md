@@ -353,7 +353,7 @@ There is a step called `ls` that is mainly included just for log output and to s
               - name: workdir
                 mountPath: /workdir
 
-In this step, I use Kaniko to build the image.  Kaniko is a tool for building OCI/Docker images inside of Kubernetes.  It avoids many of the pitfalls of running Docker in Docker (or in this case Docker in containerd).   As you can see, it also  doesn't require `root` privilege.  I also important specify output to the volume mount as a tar file, so that it can be used in downstream tasks. 
+In this step, I use Kaniko to build the image.  Kaniko is a tool for building OCI/Docker images inside of Kubernetes.  It avoids many of the pitfalls of running Docker in Docker (or in this case Docker in containerd).   As you can see, it also  doesn't require `root` privilege.  I also specify output to the volume mount as a tar file, so that it can be used in downstream tasks. 
 
         - name: trivy-image-scan
           inputs:
