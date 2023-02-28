@@ -301,7 +301,7 @@ Below that, I specify workflow level parameters and their default values.  These
 
 Above, under `templates:` is where the actual tasks are defined.  You can see here that the first template is named `ci`, which matches the `entrypoint` specified earlier.  That means that unless overridden, this step `ci` will be executed when you run the workflow.  
 
-You can also see that this is a `dag`.  I have listed out all the other templates, or tasks to be performed as well as their dependencies.  When any task has all of its dependencies complete, it will immediately begin execution.  In this workflow, it looks a bit like this:  ![argo-workflows-dag](../assets/images/argo-workflows-dag.png)
+You can also see that this is a `dag`.  I have listed out all the other templates, or tasks to be performed as well as their dependencies.  When any task has all of its dependencies complete, it will immediately begin execution.  In this workflow, it looks a bit like this:  ![argo-workflows-dag](/assets/images/argo-workflows-dag.png)
 
 You can see that `git-clone` is the first step, followed by `ls`. `build` needs to wait for both of those steps, next up are the two trivy scans.  `trivy-image-scan` depends on the build stage, as it is scanning the actual docker image.  On the other hand, `trivy-filesystem-scan` can begin executing immediately after the git clone.  Once both are complete `push-image` can begin execution, provided that `workflow.parameters.push-image` is set to `true`.
 
