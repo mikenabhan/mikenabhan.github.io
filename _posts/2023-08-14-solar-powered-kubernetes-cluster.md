@@ -26,7 +26,7 @@ This is an oversimplification, but for most high availability platforms, algorit
 
 ## The hardware stack
 
-At its core, the hardware stack is comprised of ![three intel NUCs running Proxmox](/assets/images/nuc-cluster.png).  Over the years, this NUC cluster has taken a few evolutions, such as a separate corosync network, but I've since simplified it.
+At its core, the hardware stack is comprised of ![three intel NUCs running Proxmox](/assets/images/nuc-cluster.jpeg).  Over the years, this NUC cluster has taken a few evolutions, such as a separate corosync network, but I've since simplified it.
 
 
 ## The solar setup
