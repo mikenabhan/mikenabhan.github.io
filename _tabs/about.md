@@ -8,8 +8,8 @@ order: 4
 ```
 Name: Mike Nabhan
 Occupation:
-  Title: Senior Devops Engineer
-  Company: MariaDB Corporation
+  Title: Senior Site Reliability Engineer
+  Company: Akamai Technologies
 Location: Denver, Colorado, USA
 previous_locations:
   - Glasgow
